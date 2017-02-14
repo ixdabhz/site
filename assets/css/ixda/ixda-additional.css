@@ -690,8 +690,8 @@ h6,
 .text-center{
   text-align: center;
 }
-@media (min-width: 768px) {
-  h3{
+@media (max-width: 768px) {
+  .display-2{
     font-size: 36px;
   }
 }
