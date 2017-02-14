@@ -690,6 +690,10 @@ h6,
 .text-center{
   text-align: center;
 }
+.img-responsive{
+  height: auto;
+  max-width: 100%;
+}
 @media (max-width: 768px) {
   .display-2{
     font-size: 36px;
