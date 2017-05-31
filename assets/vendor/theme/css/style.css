@@ -1244,9 +1244,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   background: none;
   padding: 0; }
 .ixda-cards .card-img-top {
-  border-radius: 0;
-  width: auto;
-  max-width: 100%; }
+  border-radius: 100%;
+  max-width: 100%;
+  width: 60%;
+  height: auto; }
 .ixda-cards .card-img + .card-block {
   padding-top: 2.3125rem; }
 .ixda-cards .card-text {
