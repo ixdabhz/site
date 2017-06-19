@@ -75,7 +75,7 @@ h6,
   font-family: 'Lora', serif;
 }
 .bg-primary {
-  background-color: #00a885 !important;
+  background-color: #55c4c4 !important;
 }
 .bg-success {
   background-color: #90a878 !important;
@@ -90,8 +90,8 @@ h6,
   background-color: #f28281 !important;
 }
 .btn-primary {
-  background-color: #00a885;
-  border-color: #00a885;
+  background-color: #55c4c4;
+  border-color: #55c4c4;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -220,14 +220,14 @@ h6,
 .btn-primary-outline:active,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #00a885;
-  border-color: #00a885;
+  background-color: #55c4c4;
+  border-color: #55c4c4;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #00a885 !important;
-  border-color: #00a885 !important;
+  background-color: #55c4c4 !important;
+  border-color: #55c4c4 !important;
 }
 .btn-secondary-outline {
   background: none;
@@ -330,7 +330,7 @@ h6,
   border-color: #f28281 !important;
 }
 .text-primary {
-  color: #00a885 !important;
+  color: #55c4c4 !important;
 }
 .text-success {
   color: #90a878 !important;
@@ -357,32 +357,32 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #00a885;
+  border-color: #55c4c4;
 }
 .btn-social:hover {
-  background: #00a885;
+  background: #55c4c4;
 }
 .ixda-company .list-group-item.active .list-group-text {
-  color: #00a885;
+  color: #55c4c4;
 }
 .ixda-footer p a,
 .ixda-footer ul a {
-  color: #00a885;
+  color: #55c4c4;
 }
 .ixda-footer-content li::before,
 .ixda-footer .ixda-contacts li::before {
-  background: #00a885;
+  background: #55c4c4;
 }
 .ixda-footer-content li a:hover,
 .ixda-footer .ixda-contacts li a:hover {
-  color: #00a885;
+  color: #55c4c4;
 }
 .lead a,
 .lead a:hover {
-  color: #00a885;
+  color: #55c4c4;
 }
 .lead blockquote {
-  border-color: #00a885;
+  border-color: #55c4c4;
 }
 .ixda-plan-header.bg-primary .ixda-plan-subtitle,
 .ixda-plan-header.bg-primary .ixda-plan-price-desc {
@@ -406,7 +406,7 @@ h6,
 }
 .ixda-small-footer a,
 .ixda-gallery-filter li:hover {
-  color: #00a885;
+  color: #55c4c4;
 }
 .scrollToTop_wraper {
   opacity: 0 !important;
@@ -439,7 +439,7 @@ h6,
 #menu-0 .dropdown-item:hover,
 #menu-0 .link:focus,
 #menu-0 .dropdown-item:focus {
-  color: #00a885;
+  color: #55c4c4;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-menu {
@@ -456,6 +456,7 @@ h6,
 #menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
 #menu-0 .nav-dropdown-sm .dropdown-menu {
   background: #ffffff;
+  opacity: 0.95;
 }
 #menu-0 .bg-color.transparent .link {
   color: #000000;
@@ -466,11 +467,11 @@ h6,
 }
 #menu-0 .bg-color.transparent.opened .link:hover,
 #menu-0 .bg-color.transparent.opened .link:focus {
-  color: #00a885;
+  color: #55c4c4;
 }
 #menu-0 .link[aria-expanded="true"],
 #menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #00a885!important;
+  color: #55c4c4!important;
 }
 #header1-1 .ixda-section-title {
   font-size: 80px;
@@ -707,4 +708,8 @@ box-shadow:         0px 2px 20px 0px rgba(50, 50, 50, 0.75);
   .display-2{
     font-size: 36px;
   }
+}
+
+.sympla-widget {
+  max-width: 100% !important;
 }

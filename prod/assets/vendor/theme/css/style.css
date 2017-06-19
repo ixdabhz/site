@@ -587,7 +587,7 @@ p.lead,
  */
 body {
   font-family: 'Raleway', sans-serif;
-  color: #232323; }
+  color: #371a63; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
@@ -1833,7 +1833,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     transition: all .3s ease-in-out;
     width: 46px; }
     .ixda-arrow a:hover {
-      background: #2d2d2d; }
+      background: #5a2aa3; }
   .ixda-arrow-icon {
     display: block; }
     .ixda-arrow-icon::before {
