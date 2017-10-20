@@ -1,0 +1,8 @@
+abbr {
+    /*border-bottom: 0px none transparent !important;*/
+    text-decoration-line: none;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
