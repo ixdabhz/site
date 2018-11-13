@@ -25,7 +25,7 @@ $enable-print-styles:       true;
 $theme-colors: (
   primary: #e05915,
   secondary: #452063,
-  light: #b5cdd9,
+  light: #c1dee6,
   dark: #151515,
   info: #ccc,
   success: #28a745,
@@ -76,7 +76,7 @@ $carousel-caption-width:            					100% !default;
 $carousel-indicator-height:                   6px !default;
 $border-radius: 6px;
 $border-radius-sm: 4px;
-$border-radius-lg: 6px;
+$border-radius-lg: 8px;
 
 @import 'bootstrap-4.1.3';
 
@@ -111,7 +111,7 @@ body > * {
 }
 
 .shadowed {
-  box-shadow: 0px 0px 5px #555;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
 
 .section-aquamarine {
@@ -163,9 +163,11 @@ body > * {
 }
 
 .section-parallax {
-  background-attachment: fixed;
-  background-size:cover;
-  background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: bottom center;
+	background-image: url("assets/conference/bg-03.jpg");
+	background-repeat: no-repeat;
 }
 
 .bg-aquamarine {
@@ -237,4 +239,9 @@ body > * {
     opacity:0;
     left:5%;
   }
+}
+
+pingendo{
+  display: none !important;
+  opacity: 0 !important;
 }
