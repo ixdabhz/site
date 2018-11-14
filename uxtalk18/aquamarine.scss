@@ -26,8 +26,8 @@ $theme-colors: (
   primary: #e05915,
   secondary: #452063,
   light: #c1dee6,
-  dark: #151515,
-  info: #ccc,
+  dark: #250d38,
+  info: #60c0c4,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
@@ -241,7 +241,17 @@ body > * {
   }
 }
 
-pingendo{
+
+
+.popover {
+    max-width: 320px;
+}
+
+.popover-body {
+    padding: 1.5rem;
+}
+
+pingendo {
   display: none !important;
   opacity: 0 !important;
 }
