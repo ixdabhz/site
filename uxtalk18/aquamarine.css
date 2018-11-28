@@ -6640,3 +6640,10 @@ body > * {
 pingendo {
   display: none !important;
   opacity: 0 !important; }
+
+#programacao .card.clickable {
+  cursor: pointer;
+  border: 1px solid transparent; }
+  #programacao .card.clickable:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-color: white; }
