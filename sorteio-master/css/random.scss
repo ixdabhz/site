@@ -1,0 +1,107 @@
+@font-face {
+	font-family: 'Share Tech Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Share Tech Mono'),
+		 local('ShareTechMono-Regular'), 
+		 url(./../fonts/RQxK-3RA0Lnf3gnnnNrAsYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body {
+	background-color: #020354;
+	font-family: 'Share Tech Mono', monospace;
+	color: #fff;
+	.actions {
+		font-size: 10px;
+	    text-transform: uppercase;
+	    bottom: 240px;
+	    position: fixed;
+	    width: 84px;
+	    display: block;
+	    left: 50%;
+	    margin-left: -42px;
+	}
+	.wrapper {
+		height: 190px;
+		overflow: hidden;
+		position: absolute;
+		top: 240px;
+		width: 90%;
+		left: 50%;
+		margin-left: -45%;
+		border-top: 1px solid #DDD;
+		border-bottom: 1px solid #DDD;
+		margin-top: -90px;
+		//zoom: 2;
+		&:before,
+		&:after {
+			content: '';
+			display: block;
+			width: 100%;
+			//box-shadow: 0px 10px 30px 2px rgba(0,0,0,0.5);
+			position: absolute;
+			height: 15px;
+			z-index: 10;
+		}
+
+		&:before {
+			top: 0px;
+			background: linear-gradient(to bottom, #020354, rgba(#020354,0.1));
+		}
+		&:after {
+			bottom: 0px;
+			background: linear-gradient(to top, #020354, rgba(#020354,0.1));
+		}
+		
+		ul {
+			display: none;
+			position: absolute;
+			padding: 0;
+			top: 0;
+			width: 100%;
+			margin: 0 auto;
+			transition: all .1s ease;
+			left: 50%;
+			margin-left: -50%;
+			margin-right: -50%;
+
+			&.selecting {
+				display: block;
+			}
+			&.selected {
+				display: block;
+			}
+
+
+			li {
+				//padding: 30px 0;
+				height: 190px;
+				line-height: 70px;
+				transition: all .1s ease-in-out;
+				font-size: 64px;
+				list-style: none;
+				text-align: center;
+				display: table;
+				width: 100%;
+
+				&.selected {
+					background-color: red;
+					height: 30px;
+					font-size: 30px;
+				}
+
+				&.none {
+					text-decoration: line-through;
+					//opacity: 0.5;
+					//color: #999;
+					text-shadow: 3px 3px 5px rgba(white, 0.3);
+				}
+
+				span {
+					vertical-align: middle;
+					display: table-cell;
+				}
+			}
+		}
+	}
+}
