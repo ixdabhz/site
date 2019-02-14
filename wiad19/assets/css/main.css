@@ -966,11 +966,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
-#sponsors {
+#apoio {
   background: #f3f4f3;
 }
 
-#sponsors .spnsors-logo {
+#apoio .spnsors-logo {
   text-align: center;
   border-radius: 4px;
   padding: 50px;
@@ -982,13 +982,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   transition: all 300ms ease-in-out;
 }
 
-#sponsors .spnsors-logo:hover {
+#apoio .spnsors-logo:hover {
   border-color: transparent;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 /* Schedule Area */
-#schedules {
+#programacao {
   background: #f3f4f3;
 }
 
@@ -2001,21 +2001,21 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Pricing Ticket */
-#pricing {
+#ingressos {
   background: var(--cyan);
   overflow: hidden;
   position: relative;
 }
 
-#pricing .section-title-header .section-title {
+#ingressos .section-title-header .section-title {
   color: #fff;
 }
 
-#pricing .section-title-header p {
+#ingressos .section-title-header p {
   color: #fff;
 }
 
-#pricing .price-block-wrapper {
+#ingressos .price-block-wrapper {
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -2024,20 +2024,20 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 30px;
 }
 
-#pricing .price-block-wrapper .icon {
+#ingressos .price-block-wrapper .icon {
   padding: 20px;
 }
 
-#pricing .price-block-wrapper .icon i {
+#ingressos .price-block-wrapper .icon i {
   font-size: 60px;
   color: #E91E63;
 }
 
-#pricing .price-block-wrapper .colmun-title {
+#ingressos .price-block-wrapper .colmun-title {
   margin-top: 15px;
 }
 
-#pricing .price-block-wrapper .colmun-title h5 {
+#ingressos .price-block-wrapper .colmun-title h5 {
   font-size: 18px;
   line-height: 30px;
   color: #212121;
@@ -2047,21 +2047,21 @@ a.back-to-top:hover, a.back-to-top:focus {
   text-transform: uppercase;
 }
 
-#pricing .price-block-wrapper .price {
+#ingressos .price-block-wrapper .price {
   padding-bottom: 10px;
   transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
 }
 
-#pricing .price-block-wrapper .price h2 {
+#ingressos .price-block-wrapper .price h2 {
   font-size: 38px;
   color: #5c5c5c;
   line-height: 42px;
   margin: 0;
 }
 
-#pricing .price-block-wrapper .price p {
+#ingressos .price-block-wrapper .price p {
   font-size: 15px;
   color: #5c5c5c;
   font-weight: 700;
@@ -2073,29 +2073,29 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-transition: all 500ms ease;
 }
 
-#pricing .price-block-wrapper .pricing-list {
+#ingressos .price-block-wrapper .pricing-list {
   padding: 10px  60px 10px 78px;
   text-align: left;
 }
 
-#pricing .price-block-wrapper .pricing-list ul {
+#ingressos .price-block-wrapper .pricing-list ul {
   padding-bottom: 15px;
 }
 
-#pricing .price-block-wrapper .pricing-list ul li {
+#ingressos .price-block-wrapper .pricing-list ul li {
   font-size: 15px;
   color: #212121;
   font-weight: 400;
   padding: 2px 0px;
 }
 
-#pricing .price-block-wrapper .pricing-list ul li i {
+#ingressos .price-block-wrapper .pricing-list ul li i {
   margin-right: 7px;
   font-size: 12px;
   color: #E91E63;
 }
 
-#pricing .price-block-wrapper .btn i {
+#ingressos .price-block-wrapper .btn i {
   font-size: 12px;
   margin-right: 5px;
 }
