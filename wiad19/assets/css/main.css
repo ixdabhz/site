@@ -126,6 +126,10 @@ ul li, ol li {
   background-color: var(--cyan);
 }
 
+#ingressos .section-title:before, #ingressos .section-title:after {
+  background-color: var(--white);
+}
+
 .section-title:before, .section-title:after {
   left: 50%;
   margin-left: -45px;
@@ -896,16 +900,16 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.1);
 }
 
-#event-slides .video img {
+#sobre .video img {
   border-radius: 4px;
 }
 
-#event-slides .intro-desc {
+#sobre .intro-desc {
   line-height: 26px;
   margin-bottom: 30px;
 }
 
-#event-slides .intro-title {
+#sobre .intro-title {
   color: #212121;
   font-size: 22px;
   font-weight: 700;
@@ -913,12 +917,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-bottom: 15px;
 }
 
-#event-slides .list-specification li {
+#sobre .list-specification li {
   margin-bottom: 10px;
   font-size: 15px;
 }
 
-#event-slides .list-specification li i {
+#sobre .list-specification li i {
   margin-right: 5px;
 }
 
@@ -1109,14 +1113,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   border-bottom: 1px solid #ddd;
 }
 
-.schedule .card-body .location,
-.schedule .card-body .minibio {
-  font-size: 13px;
+.schedule .card-body .location {
   color: #777777;
 }
 
+
 .schedule .card-body .location span,
-.schedule .card-body .minibio span {
+.schedule .card-body .minibio,
+.schedule .card-body .description {
   color: var(--cyan);
   margin-right: 5px;
 }
@@ -1769,7 +1773,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #fff;
   width: 35px;
   height: 35px;
-  line-height: 35px;
+  line-height: 35px !important;
   display: block;
   text-align: center;
   border-radius: 4px;
@@ -1801,8 +1805,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #25a0ca;
 }
 
-.footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
+.footer-area .footer-social li .instagram:hover {
+  background: #d62976;
 }
 
 .footer-area .footer-text p {
