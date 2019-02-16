@@ -26,7 +26,7 @@
         '&location=' + (event.address || ''),
         '&sprop=&sprop=name:'
       ].join(''));
-      return '<a class="btn btn-common btn-lg icon-google" target="_blank" href="' +
+      return '<a id="addCalendar" class="btn btn-common btn-lg icon-google" target="_blank" href="' +
         href + '">Adicione ao Calendário</a>';
     },
 

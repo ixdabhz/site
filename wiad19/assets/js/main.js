@@ -111,4 +111,8 @@
 
 document.querySelector('#calendar').appendChild(myCalendar);
 
+  $('#addCalendar').on('click', function() {
+     ga('send', 'event', 'calendar','add to calendar', 'Adicione ao Calendário');
+  });
+
 }(jQuery));
