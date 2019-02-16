@@ -26,7 +26,7 @@
         '&location=' + (event.address || ''),
         '&sprop=&sprop=name:'
       ].join(''));
-      return '<a id="addCalendar" class="btn btn-common btn-lg icon-google" onClick=”_gaq.push([‘_trackEvent’,, ‘calendar’, ‘Add to calenda’, ‘Adicione ao calendário’, true]);” target=”_blank” href="' +
+      return '<a id="addCalendar" class="btn btn-common btn-lg icon-google" onClick=”_gaq.push([‘_trackEvent’, ‘calendar’, ‘Add to calendar’, ‘Adicione ao calendário’, true]);” target=”_blank” href="' +
         href + '">Adicione ao Calendário</a>';
     },
 
