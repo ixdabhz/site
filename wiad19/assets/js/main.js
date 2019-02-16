@@ -115,4 +115,11 @@ document.querySelector('#calendar').appendChild(myCalendar);
     // ga('send', 'event', 'calendar','add to calendar', 'Adicione ao Calendário');
   //});
 
+  $( '#$btnContinue' ).click(function() {
+      fbq('track', 'InitiateCheckout', {
+        value: 40,
+      });
+  }
+
+
 }(jQuery));
